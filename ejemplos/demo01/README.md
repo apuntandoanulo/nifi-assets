@@ -16,3 +16,7 @@
 > JDBC URL: jdbc:postgresql://__HOST__:__PUERTO__/__NOMBRE_BD__
 
 > Driver class name: org.postgresql.Driver
+
+## Carga el template 
+
+Finalmente en Nifi, carga el template AAN - demo01.xml
