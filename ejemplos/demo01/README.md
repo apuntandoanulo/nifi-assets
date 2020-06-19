@@ -1,6 +1,18 @@
-## Elementos
+## Contexto
 
-1. Ejecutar script  de base de datos import-postregsqlv11.sql
-2. Descarga del driver JDBC disponible desde https://jdbc.postgresql.org/download.html (JDBC URL: jdbc:postgresql://127.0.0.1:5432/nifi_demo01, Driver class name: org.postgresql.Driver)
-3. Archivos CSV alojados en un FTP
-4. Crear una cuenta en Weatherbit y generar un API KEY
+<p align="center">
+  <img src="Contexto.png">
+</p>
+
+## Pasos previos
+
+- [X] Ejecutar script  de base de datos import-postregsqlv11.sql
+- [X] Descarga del driver JDBC disponible desde https://jdbc.postgresql.org/download.html
+- [X] Archivos CSV alojados en un FTP
+- [X] Crear una cuenta en Weatherbit y generar un API KEY
+
+## Cadena de conexion
+
+> JDBC URL: jdbc:postgresql://__HOST__:__PUERTO__/__NOMBRE_BD__
+
+> Driver class name: org.postgresql.Driver
